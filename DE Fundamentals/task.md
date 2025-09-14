@@ -47,7 +47,7 @@ By the end of this task, you should have a solid blueprint required for building
 ---
 
 **Duration**  
-5 days (19/09/2025)  
+2 days (17/09/2025)  
 
 **Mode of Submission**  
 Share a link to your solution. This can be a GitHub readme, PDF, presentation slide etc.  
