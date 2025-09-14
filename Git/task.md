@@ -50,3 +50,11 @@
 ## 5. Merging to Main and Releasing Versions
 
 - Periodically merge the **develop** branch into **main**.  
+
+---
+
+## Submission:
+Submit a link to your GitHub repo.
+
+## Duration:
+5 days (20/09/2025)
