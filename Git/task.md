@@ -58,5 +58,6 @@ Submit a link to your GitHub repo.
 
 Submit using this form - https://forms.gle/wJazWiJSaGJrWyDNA
 
-## Duration:
-5 days (Deadline: **20/09/2025**)
+**Duration:** 5 days
+
+**Deadline:** 20/09/2025
