@@ -13,18 +13,19 @@ Connect to a Linux virtual machine (VM) using the credentials shared with you.
 ---
 
 ## 2. Data Ingestion and Preprocessing
-Simulate data ingestion by creating or downloading sample datasets (CSV files) and saving them to the input folder. (We can provide this)
+Simulate data ingestion by copying the dataset (`sales_data.csv`) into `~/data_pipeline/input/.`
+
 - Write a script `preprocess.sh` to clean and prepare the data files. The script should:
-    - Filter or remove unnecessary columns.
-    - Format data (e.g., date formatting).
-    - Save cleaned files in the output folder.
-    - And so on.
+    - Removes the `extra_col` column (last column).
+    - Filters out rows where `status = Failed`.
+    - Saves the cleaned version of the file into `~/data_pipeline/output/cleaned_sales_data.`csv.
+    - Prints a success message and logs the action to `~/data_pipeline/logs/preprocess.log.`
     - Make preprocess.sh executable
 
 ## 3. Automate the Pipeline with Cron Jobs
 - Set up a cron job to automate data processing.
-- Schedule preprocess.sh to run every day at midnight
-- Confirm the cron job is active by listing scheduled jobs
+- Schedule preprocess.sh to run every day at midnight (12AM)
+- Confirm the cron job is active by listing the scheduled jobs on the server.
 
 ## 4. Logging and Monitoring
 - Redirect output and error logs to the logs folder to monitor the pipeline’s progress.
