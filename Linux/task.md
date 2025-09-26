@@ -1,13 +1,13 @@
 # Overview
-As a data engineer, you have been tasked to set up a data processing pipeline using Linux commands and scripts. This project would cover file manipulation, automation, permissions management, scheduling with cron, and logging.
+As a data engineer, you have been tasked to set up a data processing pipeline using Linux commands and bash scripts. This project would cover file manipulation, automation, permissions management, scheduling with cron, and logging.
 
 ---
 
 ## 1. Set Up the Environment
-Set up a Linux virtual machine (VM) or environment.
+Connect to a Linux virtual machine (VM) using the credentials shared with you.
 - Create directories for organizing the pipeline:
-    - ~/data_pipeline/input 
-    - ~/data_pipeline/output 
+    - ~/data_pipeline/input
+    - ~/data_pipeline/output
     - ~/data_pipeline/logs
 
 ---
@@ -37,3 +37,12 @@ Simulate data ingestion by creating or downloading sample datasets (CSV files) a
 - Adjust permissions to secure files and directories:
 - Set the input folder to be writable only by your user.
 - Restrict access to logs so only authorized users can read them.
+
+## Submission:
+Submit a link to your GitHub repo containing your solution.
+
+Submit using this form - https://forms.gle/zadQcmK8xBV8RRBd7
+
+**Duration:** 7 days
+
+**Deadline:** 03/10/2025
