@@ -41,7 +41,7 @@ Your task is to write SQL queries to answer business questions and generate acti
 ## Submission:
 Submit a link to your GitHub repo containing your solution.
 
-Submit using this form - 
+Submit using this form - https://forms.gle/gGvhRKnTw3onDwVE6
 
 **Duration:** 7 days
 
