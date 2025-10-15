@@ -37,3 +37,12 @@ Your task is to write SQL queries to answer business questions and generate acti
 - Prefer CTEs for multi-step logic.
 - Use window functions where ranking or ordering is required.
 
+
+## Submission:
+Submit a link to your GitHub repo containing your solution.
+
+Submit using this form - 
+
+**Duration:** 7 days
+
+**Deadline:** 22/10/2025
