@@ -2,9 +2,18 @@
 ## Business Scenario:
 LaunchMart is a growing African e-commerce company that recently launched a loyalty program to increase customer retention. Customers earn points when they place orders and extra bonus points during promotions. The Data Team has been asked to analyze customer behavior, revenue performance, and loyalty engagement.
 
-You are hired as a Data Engineer to write SQL queries that help the business team understand customer behavior.
+As a data engineer at LaunchMart, your manager has asked you to explore the company's customer, orders, and loyalty program data to help the marketing and operations teams make informed decisions.
 
-## Questions
+This dataset includes customers, products, orders, order items, and loyalty points earned tables.
+
+## Setup
+To create the database tables, you have been provided with the database DDL statements in the `01_schema.sql` file. 
+After creating the table, use the seed data provided in the `02_see_data.sql` file to insert sample data into the tables.
+See the `03_launchMart_erd.png` file for the ERD to understand the relationship between the tables.
+
+## Your task
+Your task is to write SQL queries to answer business questions and generate actionable insights. Specifically, you should focus on:
+
 1. Count the total number of customers who joined in 2023.
 2. For each customer return customer_id, full_name, total_revenue (sum of total_amount from orders). Sort descending.
 3. Return the top 5 customers by total_revenue with their rank.
@@ -26,3 +35,5 @@ You are hired as a Data Engineer to write SQL queries that help the business tea
 ## Rules:
 - Use readable SQL formatting and comments.
 - Prefer CTEs for multi-step logic.
+- Use window functions where ranking or ordering is required.
+
