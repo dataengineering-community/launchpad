@@ -22,3 +22,7 @@ You are hired as a Data Engineer to write SQL queries that help the business tea
     Output: tier, tier_count, tier_total_points
 11. Identify customers who spent more than ₦50,000 in total but have less than 200 loyalty points. Return customer_id, full_name, total_spend, total_points.
 12. Flag customers as churn_risk if they have no orders in the last 90 days (relative to 2023-12-31) AND are in the Bronze tier. Return customer_id, full_name, last_order_date, total_points.
+
+## Rules:
+- Use readable SQL formatting and comments.
+- Prefer CTEs for multi-step logic.
