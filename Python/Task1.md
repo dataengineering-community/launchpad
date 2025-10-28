@@ -37,7 +37,7 @@ Each user should have:
 - Log email delivery status per user
 
 ### 4. Logging & Monitoring
-- Log events to local files
+- Log events to files
   - Quote fetched
   - Email sent (to which user, when)
   - Failures and retry attempts

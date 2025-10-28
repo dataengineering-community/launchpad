@@ -27,7 +27,7 @@ You’ll primarily be working with the `listings.csv` file.
 - Convert price fields (e.g., `"$2,100.00"`) to float.
 - Parse dates (e.g., `last_review`) into datetime objects.
 - Handle missing values in critical fields like `reviews_per_month`, `host_name`, and `neighbourhood_group`.
-- Remove or impute irrelevant rows (e.g., listings with zero availability or price).
+- Remove irrelevant rows (e.g., listings with zero availability or price).
 
 ---
 
@@ -53,7 +53,7 @@ Answer the following using Pandas:
 
 
 ## Submission Guidelines
-- Submit a link to a github repo with a clean, well-commented Jupyter notebook.
+- Submit a clean, well-commented Jupyter notebook.
 - Break your code into clear sections (Cleaning, Data Enrichment, Analysis).
 - Include markdown cells to explain what you're doing and why.
 - Include problems you encountered and how you handled them.
