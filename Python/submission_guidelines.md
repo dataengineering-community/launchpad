@@ -18,4 +18,4 @@ Submit using this form - https://forms.gle/V4qvT3fHPQFbPPLr7
 
 **Total Duration: 14 days (Two weeks)**
 
-**Deadline:** 11/11/2025
+**Deadline:** 12/11/2025
