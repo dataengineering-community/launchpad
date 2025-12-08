@@ -33,7 +33,7 @@ Package the Python quote-delivery service into a portable, reproducible Docker i
 
 4. Publish the image to Docker Hub or another registry of your choice.
 
-5. Submit:
-    - Dockerfile.
-    - Image URL on registry.
-    - instructions for pulling and running the image.
+**Submit:**
+- Dockerfile.
+- Image URL on registry.
+- instructions for pulling and running the image.
