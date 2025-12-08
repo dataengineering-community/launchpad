@@ -20,7 +20,7 @@ https://dumps.wikimedia.org/other/pageviews/2025/2025-10/
 The structure and technical details of Wikipedia pageviews data is documented here: [structure](https://meta.wikimedia.org/wiki/Research:Page_view) and [technical](https://wikitech.wikimedia.org/wiki/Analytics/Data_Lake/Traffic/Pageviews) details.
 
 ### Sample Data Explanation:
-![Sample data explanation](launchpad/08-Airflow/airflow_task_sample_data.png)
+![Sample data explanation](airflow_task_sample_data.png)
 
 ### Project Tasks:
 To start small, your manager has asked you to create the first version of a DAG pulling the Wikipedia pageview counts by downloading, extracting, and reading the pageview data for any one hour duration on any date in December 2025 (**e.g 4pm data for 10th of December, 2024**). 
@@ -35,10 +35,10 @@ Download and extract the zip file containing the pageviews data for just one hou
 1 week 
 
 ### Deliverables:
-A data pipeline orchestrated with Apache Airflow
-Documentation of the design or architecture of the data pipeline, including the rationale behind key decisions and useful information.
-Include necessary best practices like failure alert, retries, idempotence, etc.
-The pipeline must be runnable.
+- A data pipeline orchestrated with Apache Airflow
+- Documentation of the design or architecture of the data pipeline, including the rationale behind key decisions and useful information.
+- Include necessary best practices like failure alert, retries, idempotence, etc.
+- The pipeline must be runnable.
 
 ### Mode of Submission:
 A link to a Github repo containing your solution to be submitted
