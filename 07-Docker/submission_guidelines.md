@@ -6,12 +6,12 @@ Submit using this form - https://forms.gle/BCtTBpmJZdeaFBN57
 
 ### Task 1
 
-**Duration:** 2 days
+**Duration:** 3 days
 
 ### Task 2
 
 **Duration:** 3 days
 
-**Total Duration: 5 days**
+**Total Duration: 6 days**
 
-**Deadline:** 22/12/2025
+**Deadline:** 23/12/2025
