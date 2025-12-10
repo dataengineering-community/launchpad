@@ -44,3 +44,12 @@ For observability, make sure that every dbt run/build logs useful metadata into 
 This will help the team monitor performance, debug issues, and track changes over time.
 
 **Note:** You can use any data platform of choice (Snowflake, local or cloud-hosted supported databases).
+
+## Submission:
+Submit a link to your GitHub repo containing your solution.
+
+Submit using this form - https://forms.gle/2wtvJTHBib4kb7cT7
+
+**Duration:** 7 days
+
+**Deadline:** 17/12/2025
