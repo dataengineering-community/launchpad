@@ -45,9 +45,9 @@ A link to a Github repo containing your solution to be submitted
 
 Submit using this form - https://forms.gle/DWSxpEDRebu8qJSw8
 
-**Duration:** 7 days
+**Duration:** 8 days
 
-**Deadline:** 17/12/2025
+**Deadline:** 31/12/2025
 
 ### Conclusion
 By accomplishing this case study project, you will become more confident in data workflow orchestration with Apache Airflow. Give it your best shot and learn as much as possible along the process. Ask as many questions as needed and make Google your best friend.
