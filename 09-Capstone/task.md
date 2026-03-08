@@ -147,3 +147,23 @@ CD should:
 All cloud infrastructure must be provisioned using **Terraform**.
 
 Terraform state must be stored in a **remote backend** such as an object storage bucket.
+
+## BONUS (NOT MANDATORY)
+Using the modeled data, derive business insights such as:
+- Top products causing stockouts
+- Suppliers with consistent delivery delays
+- Stores with highest demand variability
+- Inventory optimization opportunities
+
+Provide recommendations for improving supply chain performance.
+
+## SUBMISSION REQUIREMENTS
+A GitHub Repository containing a well documented README of the entire project. It should contain important information like the:
+- Project overview/background.
+- Project structure.
+- Architecture diagram.
+- Choice of tools and technology.
+- How to set up the project.
+- e.t.c.
+
+A Power Point or equivalent, for presentation of the entire project to the management.
