@@ -126,12 +126,12 @@ You **MUST** also follow best practices including:
 - failure alerts
 
 ### Containerization
-For reproducibility across environments, package all code into a Docker Image.
+For reproducibility across environments, package all code into a **Docker Image**.
 - The image should include all python and DAG codes.
-- Push the image to a Container Registry such as Docker Hub, AWS ECR or GCR
+- Push the image to a **Container Registry** such as Docker Hub, AWS ECR or GCR
 
 ### CI/CD Pipeline
-Your GitHub repository must include a CI/CD pipeline.
+Your GitHub repository must include a **CI/CD pipeline**.
 
 CI should include:
 - code linting
