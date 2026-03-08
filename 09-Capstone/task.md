@@ -96,3 +96,36 @@ The final models should support analytical queries such as:
 - supplier delivery performance
 - warehouse efficiency
 - regional sales demand
+
+### Data Cleaning and Enrichment
+Clean and standardize the raw datasets.
+Examples include:
+- standardizing column naming conventions
+- removing duplicates
+- correcting inconsistent formats
+- validating foreign key relationships
+
+You should also **enrich the datasets** by combining multiple sources.
+
+### Workflow Orchestration
+
+You **MUST** use **Apache Airflow** to orchestrate the entire workflow.
+
+Airflow should coordinate:
+- Data extraction
+- Loading to the raw layer
+- Data cleaning
+- Data transformation
+- dbt model execution
+- Data quality checks
+
+You **MUST** also follow best practices including:
+- idempotent pipelines
+- incremental processing
+- retry mechanisms
+- failure alerts
+
+### Containerization
+For reproducibility across environments, package all code into a Docker Image.
+- The image should include all python and DAG codes.
+- Push the image to a Container Registry such as Docker Hub, AWS ECR or GCR
