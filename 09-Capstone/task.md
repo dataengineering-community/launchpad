@@ -129,3 +129,21 @@ You **MUST** also follow best practices including:
 For reproducibility across environments, package all code into a Docker Image.
 - The image should include all python and DAG codes.
 - Push the image to a Container Registry such as Docker Hub, AWS ECR or GCR
+
+### CI/CD Pipeline
+Your GitHub repository must include a CI/CD pipeline.
+
+CI should include:
+- code linting
+- formatting checks
+- automated tests where applicable
+
+
+CD should:
+- build the Docker image
+- push the image to a container registry
+
+### Infrastructure as Code
+All cloud infrastructure must be provisioned using **Terraform**.
+
+Terraform state must be stored in a **remote backend** such as an object storage bucket.
