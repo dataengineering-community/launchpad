@@ -53,3 +53,24 @@ Each dataset represents a **different operational domain of the supply chain.**
 - Data Location: Stored in **S3**
 - Frequency: Daily
 
+### Shipment Delivery Logs
+- Description: Shipment records representing goods transported from warehouses to retail stores.
+- Format: JSON
+- Data Location: Stored in **S3**
+- Frequency: Daily
+
+### Store Sales Transactions
+- Description: Transaction records representing sales of products at retail stores.
+- Format: PostgreSQL database tables
+- Data Location: Transactional Postgres Database
+- Credentials stored in AWS SSM Parameter Store
+    - Schema name: store_sales
+    - Tables:
+        - sales_2026_03_10
+        - sales_2026_03_11
+        - sales_2026_03_12
+        - Sales_2026_03_13
+        - Sales_2026_03_14
+        - Sales_2026_03_15
+        - Sales_2026_03_16
+- Frequency: New table generated daily
