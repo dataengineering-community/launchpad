@@ -28,7 +28,7 @@ You have been hired as a Data Engineer to design and implement this platform.
 
 If successful, your platform will allow the company to **reduce stockouts, optimize inventory**, and improve delivery efficiency, potentially saving **millions of dollars annually**.
 
-# DATA SOURCES
+## DATA SOURCES
 You have been granted access to several operational datasets from different systems.
 
 Each dataset represents a **different operational domain of the supply chain.**
@@ -63,9 +63,9 @@ Each dataset represents a **different operational domain of the supply chain.**
 - Description: Transaction records representing sales of products at retail stores.
 - Format: PostgreSQL database tables
 - Data Location: Transactional Postgres Database
-- Credentials stored in AWS SSM Parameter Store
-    - Schema name: store_sales
-    - Tables:
+- Credentials stored in **AWS SSM Parameter Store**
+    - Schema name: **store_sales**
+    - **Tables**:
         - sales_2026_03_10
         - sales_2026_03_11
         - sales_2026_03_12
@@ -74,3 +74,25 @@ Each dataset represents a **different operational domain of the supply chain.**
         - Sales_2026_03_15
         - Sales_2026_03_16
 - Frequency: New table generated daily
+
+## PROJECT OBJECTIVES
+You are required to implement a **Production-Grade Data Platform** that ingests, processes, and models this data.
+### Data Ingestion (Raw Layer)
+- Develop an ingestion layer that extracts data from each source.
+- Store raw data in any Cloud Object Storage in Parquet format.
+- The raw layer must preserve all original data for reproducibility.
+- Include metadata such as ingestion timestamp
+- You must also account for messy data issues
+
+### Data Warehouse and Modeling
+Design and implement a Data Warehouse using a platform of your choice such as:
+- Snowflake
+- BigQuery
+- Redshift
+Use **dbt** to model the data into **Fact and Dimension tables** suitable for analytics.
+
+The final models should support analytical queries such as:
+- product stockout trends
+- supplier delivery performance
+- warehouse efficiency
+- regional sales demand
