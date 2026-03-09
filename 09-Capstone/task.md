@@ -75,6 +75,8 @@ Each dataset represents a **different operational domain of the supply chain.**
         - Sales_2026_03_16
 - Frequency: New table generated daily
 
+**Note:** Avoid running too many queries against the database, to ensure high availability for others. You are expected to ingest the raw data into your environment and run queries there.
+
 ## PROJECT OBJECTIVES
 You are required to implement a **Production-Grade Data Platform** that ingests, processes, and models this data.
 ### Data Ingestion (Raw Layer)
