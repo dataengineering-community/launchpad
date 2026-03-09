@@ -47,6 +47,18 @@ Each dataset represents a **different operational domain of the supply chain.**
 
 **Note**: You must **move the dataset to your own private Google Sheet** and configure a **Service Account** to programmatically extract the data via the **Google Sheets API**.
 
+### Suppliers Data
+- Description: Master data of all suppliers (brands)
+- Format: CSV
+- Data Location: Stored in an **S3 Bucket on AWS**
+- Frequency: Static dataset (rarely changes)
+
+### Warehouses
+- Description: Dataset containing information about SupplyChain360 warehouses.
+- Format: CSV
+- Data Location: Stored in an **S3 Bucket on AWS**
+- Frequency: Static dataset (rarely changes)
+
 ### Warehouse Inventory Snapshots
 - Description: Daily inventory snapshot of each warehouse showing stock levels per product.
 - Format: CSV
