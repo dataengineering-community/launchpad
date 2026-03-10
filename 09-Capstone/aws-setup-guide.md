@@ -1,11 +1,15 @@
 # AWS Setup Guide
 
-To complete this capstone project, you will need access to the cloud environment where the datasets and infrastructure are hosted.
+To complete this capstone project, you will need access to the cloud environment where the datasets and infrastructure that you need are hosted.
 
 We are using Amazon Web Services (AWS) for this.
 
 The datasets are stored in **Amazon S3**, and some configuration values (such as database credentials) are stored in **AWS Systems Manager Parameter Store**.
 Follow the steps below to configure your environment.
+
+**Note:** An IAM user with the least required permissions to access what you need from the **SupllyChain360** AWS account has been created for you. 
+
+Access to this account is very limited. You must use your own cloud platform account to work on the project.
 
 ## 1. Login to AWS
 
