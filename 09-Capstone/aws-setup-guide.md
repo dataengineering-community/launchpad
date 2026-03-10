@@ -58,7 +58,7 @@ Download or copy the following credentials:
 - Access Key ID
 - Secret Access Key
 
-**Important: **
+**Important:**
 - Save these values securely
 - Never commit AWS credentials to GitHub
 - Never share your Access Keys
