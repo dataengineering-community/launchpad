@@ -33,9 +33,32 @@ The raw datasets for the project are stored in Amazon S3.
 
 ## 3. Access Configuration from Parameter Store
 The credentials of the PostgreSQL database for the **Stores Sales Transactions** are stored securely in the AWS Systems Manager Parameter Store.
+
 **parameters:**
 - /supplychain360/db/host
 - /supplychain360/db/port
 - /supplychain360/db/dbname
 - /supplychain360/db/user
 - /supplychain360/db/password
+
+## 4. Create Your Access Keys (Required for Programmatic Access)
+Your data pipelines may need to access AWS programmatically (for example from Python scripts).
+
+To do this you must create an **Access Key.**
+
+**Steps:**
+
+1. Login to the AWS Console
+2. Click your username at the top right of the screen
+3. Click Security Credentials
+4. Scroll to Access Keys
+5. Click Create Access Key
+
+Download or copy the following credentials:
+- Access Key ID
+- Secret Access Key
+
+**Important: **
+- Save these values securely
+- Never commit AWS credentials to GitHub
+- Never share your Access Keys
