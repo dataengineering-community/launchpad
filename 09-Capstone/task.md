@@ -181,3 +181,12 @@ A GitHub Repository containing a well documented README of the entire project. I
 - e.t.c.
 
 A Power Point or equivalent, for presentation of the entire project to the management.
+
+## MODE OF SUBMISSION
+A link to a Github repo containing your solution to be submitted
+
+Submit using this form - https://forms.gle/DWSxpEDRebu8qJSw8
+
+**Duration**: 2 weeks
+
+**Deadline**: 25/03/2026
