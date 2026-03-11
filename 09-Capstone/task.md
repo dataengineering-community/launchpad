@@ -187,6 +187,4 @@ A link to a Github repo containing your solution to be submitted
 
 Submit using this form - https://forms.gle/5L3zs7EnhVTueUG56
 
-**Duration**: 2 weeks
-
-**Deadline**: 25/03/2026
+**Deadline**: 31/03/2026
