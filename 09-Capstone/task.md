@@ -76,7 +76,7 @@ Each dataset represents a **different operational domain of the supply chain.**
 - Format: PostgreSQL database tables
 - Data Location: Transactional Postgres Database
 - Credentials stored in **AWS SSM Parameter Store**
-    - Schema name: **store_sales**
+    - Schema name: **public**
     - **Tables**:
         - sales_2026_03_10
         - sales_2026_03_11
